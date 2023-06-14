@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://bmdevelopers001.github.io/React-Practice",
+  "homepage": "https://bmdevelopers001.github.io/React-Practice",
   "name": "keeptrack",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +11,7 @@
     "@types/node": "^16.18.34",
     "@types/react": "^18.2.9",
     "@types/react-dom": "^18.2.4",
+    "gh-pages": "^5.0.0",
     "mini.css": "^3.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -21,7 +22,7 @@
   },
   "scripts": {
     "pre-deploy": "npm run build",
-    "deploy" : "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
