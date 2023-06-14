@@ -4,6 +4,7 @@ import ProjectsPage from './projects/ProductsPage';
 
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import HomePage from './home/HomePage';
+import ProjectPage from './projects/ProjectPage';
 
 function App() {
   return (
@@ -18,11 +19,12 @@ function App() {
         <NavLink to="/projects" className="button rounded">
           Projects
         </NavLink>
-      </header>
+      </header>3
       <div className="container">
         <Routes>
           <Route path='/' element={<HomePage />}></Route>
           <Route path='/projects' element={<ProjectsPage />}></Route>
+          <Route path='/projects/:id' element={<ProjectPage />}></Route>
         </Routes>
       </div>
     </Router>
