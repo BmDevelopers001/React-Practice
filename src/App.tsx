@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import ProjectsPage from './projects/ProductsPage';
 
-import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import HomePage from './home/HomePage';
 import ProjectPage from './projects/ProjectPage';
 
